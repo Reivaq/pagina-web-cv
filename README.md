@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Dia 9 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una vez finalizado la paginaweb lo siguiente fue subirla a la web para ello se utilizo la pagina '000webhost' la cual te da gratis la oportunidad de subir tu pagina web 
 
-## Available Scripts
+1.- Nos registramos 
 
-In the project directory, you can run:
+![image](https://github.com/Reivaq/Practicas/assets/140466947/d0d2d466-36b7-4f57-90ba-84e659b139c6)
 
-### `npm start`
+2.- Creamos un sitio web llamado **mecatronica-web**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/Reivaq/Practicas/assets/140466947/bf3555fe-33d0-4767-947f-9b96eb60ad61)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3.- Administrando nuestra pagina se obtuvo el link en el cual estara alojada nuestra pagina 
 
-### `npm test`
+![image](https://github.com/Reivaq/Practicas/assets/140466947/8cef8850-4069-470d-b625-74247889d28c)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+el link lo copiaremos ya que nos servira para contruir nuestra pagina 
 
-### `npm run build`
+4.- Dentro de de nuestro proyecto abrimos el 'packege.json' en el cual escriiremos el siguiente comando '"homepage": "https://mecatronica-web.000webhostapp.com/"''
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/Reivaq/Practicas/assets/140466947/c16979de-e79d-40b4-9489-d99ff3bf00b2)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/Reivaq/Practicas/assets/140466947/d063d3b8-b43a-47f9-a6e4-6e4445042584)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+5.-En ese misma parte en la parte de Debug podremos contruir nuestro archivo o en dado caso que no se pueda en el cmd buscaremos y abriremos nuestra carpeta para ejecutar el siguiente comando "npm build"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/Reivaq/Practicas/assets/140466947/b8244273-2752-4952-adbb-3f02969b3fcb)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6.-Cuando se aya contruido nuestra carpeta esta formara una carpeta build en donde se encuentran nuestros archivos, esta carpeta es la que vamos a subir ala red
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/Reivaq/Practicas/assets/140466947/9d144b18-b0da-42b3-acb5-2e9854a51df2)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+7.- En la pagina 000webhost nos dirijiremos a la parte de herramientas y de ahi a administrador de documentos 
+![image](https://github.com/Reivaq/Practicas/assets/140466947/124f5463-00a4-4b51-bef6-098fa0b777ab)
 
-## Learn More
+se nos abrira una pagina en donde podremos subir nuestra carpeta build 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/Reivaq/Practicas/assets/140466947/a93cff5b-9635-40ca-bc77-9a3c13b6ed01)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+8.- Para acceder a nuestra paginas solo tenemos que acceder con el link que nos proporcionaron anterior mente y eso seria todo 
 
-### Code Splitting
+## Codigo en git 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ahora subiremos nuestro codigo a git creando un nuevo repositorio el cual llevara por nommbre **pagina-web-cv**  todo esto lo realizaremos con git 
 
-### Analyzing the Bundle Size
+1.- inicializamos las carpetas con '<git init>'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://github.com/Reivaq/Practicas/assets/140466947/983e1cdf-b2a6-47ff-b062-20bdfd4e0a1b)
 
-### Making a Progressive Web App
+2.-Agregamos todos los archivos al repositorio con 'git add. '
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://github.com/Reivaq/Practicas/assets/140466947/6fb8cbd9-5d56-4eb9-879b-bb6147374d02)
 
-### Advanced Configuration
+3.-Los subimos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![image](https://github.com/Reivaq/Practicas/assets/140466947/3885d7a7-3296-4ed2-a486-3743f585a1ea)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+**Link de la pagina web**
+    https://mecatronica-web.000webhostapp.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
