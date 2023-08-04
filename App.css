@@ -1,0 +1,131 @@
+.App {
+  width: 1300px; /* El ancho será igual al 100% del ancho del viewport */
+  height: 1000px; /* El alto será igual al 100% del alto del viewport */
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  background-color: #73C6B6;
+  text-align: left;
+  border: 1px solid #FFE176;
+  text-align: center;
+  margin-left: 250px;
+  font-size: 30px;
+  /*padding-right: 20px;
+  padding-left: 1px;
+  padding-top: 5px;*/
+  
+}
+ .descripcion{
+    text-align: right;
+    border: 1px solid #e3d9b2;
+    font-size: bold 100px arial;
+    display:block;
+    /*margin:600px;
+    margin-right: 10px;
+    text-size-adjust: 40px;
+    padding-top: 0px;*/
+    margin-top: none;
+    margin-left: 250px;
+    margin-bottom: 250px;
+    background:white;
+  }
+.imagen_fondo{
+    display: flex; /* Utilizar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    position: absolute;
+    top: 0;
+    background-color: #196F3D;
+   /* background: #ffe259;   fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #ffa751, #ffe259);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 250px ;
+    width: 250px;
+    /*height: 230 px;
+    float: none;
+    width: 250px;*/
+  }
+
+  .barra_izq{
+    padding: 0;
+    padding-left: 0px;
+    position:absolute;
+    top:0;
+    margin-top: 250px;
+    background-color: #73C6B6 ;
+    text-align: center;
+    font-size: bold 100px arial;
+    border: 1px solid #FFE176;
+    width: 250px;
+    height: 748px;
+  }
+
+  .contac{
+    position: absolute;
+    top: 500px
+
+  }
+  img{
+    height: 150px ;
+    width: 150px;
+  }
+
+  .dos{
+    height: 20px;
+    width: 20px;
+    position: left;
+    top: 30px;
+  }
+  
+  .arrob{
+    height: 30px;
+    width: 30px;
+  }
+
+  header nav img div article{
+    display: block;
+  }
+  .lista{
+
+    text-align:left;
+    padding-left: 20px;
+  }
+  .aptitud{
+    text-align:center;
+  }
+  .lunguages{
+    text-align:left;
+    padding-left: 20px;
+  }
+
+  .centro{
+    padding: 0;
+    padding-right: 15px;
+    padding-left: 270px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: rgb(255, 255, 255);
+    border: 1 px solid black;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+  }
+
+  .Mi_persona{
+    text-align: justify
+  }
+
+ h1 h2 h3 h4 h5 h6{
+  font-family:'Times New Roman', Times, serif ;
+  font-weight:bold;
+ }
+
+ p{
+  font-family:sans-serif ;
+ }
